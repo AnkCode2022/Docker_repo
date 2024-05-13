@@ -1,0 +1,33 @@
+git checkout --orphan Awais  --- create a new orphan branch
+then change as per your desire
+
+git add .
+git commit -m "new branch awais"
+
+git push --set-upstream origin Awais  ---
+this command is used to tell jenkins that pull/push operations have to do from this branch( and then git stars tracking it
+
+
+git branch -d Branch
+git branch -D Awais --- for forcefully regardless merge status
+
+git push origin --delete Awais  --- commit changes to github
+
+
+git checkout -b newbranch --- create new branch
+git push -u origin newbranch
+
+--------------------------
+
+if i want to checkout from other branch (not from main)
+i have to goto in that branch and now have to checkout -b t onew branch
+
+
+config --global alias.s status
+
+
+checkout into branch( jisme merge krna h)
+
+git merge branch (jiska data merge krna h )
+
+
